@@ -10,6 +10,5 @@ interface Database {
     val client: CoroutineClient
     val database: CoroutineDatabase
     val userCollection: CoroutineCollection<User>
-//    val queryCollection: CoroutineCollection<UserQuery>
-//    val replyCollection: CoroutineCollection<UserReply>
+
 }
